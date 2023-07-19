@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  background: rgb(52, 109, 107);
+  background: linear-gradient(
+    180deg,
+    rgba(52, 109, 107, 1) 28%,
+    rgba(68, 149, 116, 1) 36%,
+    rgba(25, 39, 78, 1) 63%,
+    rgba(52, 109, 107, 1) 80%,
+    rgba(68, 149, 116, 1) 83%
+  );
+}
+.gradient-bg {
+  background: linear-gradient(
+    180deg,
+    rgba(52, 109, 107, 1) 28%,
+    rgba(68, 149, 116, 1) 36%,
+    rgba(25, 39, 78, 1) 63%,
+    rgba(52, 109, 107, 1) 80%,
+    w rgba(68, 149, 116, 1) 83%
+  );
+}
+
+#header {
+  width: calc(100% + 10rem); /* Width of the child div + 10rem */
+  margin-left: -5rem;
+  background-color: transparent;
+}
